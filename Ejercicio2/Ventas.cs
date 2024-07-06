@@ -1,0 +1,159 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Ejercicio2
+{
+    public class Ventas
+    {
+        int CantNaftaNormalDisponible = 2000;
+        int CantNaftaSuperDisponible = 2000;
+        int CantNaftaPremiumDisponible = 2000;
+
+        List<Venta> lstVentas = new List<Venta>();
+
+        List<Venta> lstVentasNaftaNormal = new List<Venta>();
+        List<Venta> lstVentasNaftaSuper = new List<Venta>();
+        List<Venta> lstVentasNaftaPremium = new List<Venta>();
+
+        void UpdateListaNaftaNormalSuperPremium()
+        {
+            foreach (Venta v in lstVentas) 
+            {
+                if (v.Tipo == "Normal")
+                    lstVentasNaftaNormal.Add(v);
+
+                if (v.Tipo == "Súper")
+                    lstVentasNaftaSuper.Add(v);
+
+                if (v.Tipo == "Premium")
+                    lstVentasNaftaPremium.Add(v);
+            }
+
+        }
+
+        double CalcularRecaudacion(List<Venta> plstVentas) 
+        {
+            double total = 0;
+
+            foreach (Venta v in plstVentas)
+            {
+                total += v.Precio;
+            }
+
+            return total;
+        }
+
+        double CalcularRecaudacionTotalTodosTiposConfundidos() 
+        { 
+          
+          return CalcularRecaudacion(lstVentas);
+        }
+
+        double CalcularRecaudacionTotalTipoNormal()
+        {
+            UpdateListaNaftaNormalSuperPremium();
+            return CalcularRecaudacion(lstVentasNaftaNormal);
+        }
+
+        double CalcularRecaudacionTotalTipoSuper()
+        {
+            UpdateListaNaftaNormalSuperPremium();
+            return CalcularRecaudacion(lstVentasNaftaSuper);
+        }
+
+        double CalcularRecaudacionTotalTipoPremium()
+        {
+            UpdateListaNaftaNormalSuperPremium();
+            return CalcularRecaudacion(lstVentasNaftaPremium);
+        }
+
+        double RecaudacionMasGrande(double pNormal,double pSuper,double pPremium) 
+        {
+            return Math.Max(Math.Max(pNormal,pSuper), pPremium);
+        }
+
+        int MaxCantidadCliente(int pCantNormal, int pCantSuper, int pCantPremium)  
+        {
+           return Math.Max(Math.Max(pCantNormal,pCantSuper), pCantPremium);
+        }
+
+        double RecaudacionMenosGrande(double pNormal, double pSuper, double pPremium) 
+        {
+            return Math.Min(Math.Min(pNormal, pSuper), pPremium);
+        }
+        string surtidorConMasRecaudaccion() 
+        { 
+
+            string tipoSustidorConMasRecaudaccion = "Normal";
+
+            double Normal = CalcularRecaudacionTotalTipoNormal();
+            double Super = CalcularRecaudacionTotalTipoSuper();
+            double Premium = CalcularRecaudacionTotalTipoPremium();
+
+            double recaudacionMax = RecaudacionMasGrande(Normal,Super,Premium);
+
+            if (recaudacionMax == Normal)
+                tipoSustidorConMasRecaudaccion = "Normal";
+            if (recaudacionMax == Super)
+                tipoSustidorConMasRecaudaccion = "Súper";
+            if (recaudacionMax == Premium)
+                tipoSustidorConMasRecaudaccion = "Premium";
+
+
+            return $"Sustidor con más recaudación Nafta {tipoSustidorConMasRecaudaccion} : {recaudacionMax} ARS$ ";
+        
+        }
+
+
+        string surtidorConMenosRecaudacion() 
+        {
+            string tipoSustidorConMenosRecaudacion = "Normal";
+
+            double Normal = CalcularRecaudacionTotalTipoNormal();
+            double Super = CalcularRecaudacionTotalTipoSuper();
+            double Premium = CalcularRecaudacionTotalTipoPremium();
+
+            double recaudacionMin = RecaudacionMenosGrande(Normal, Super, Premium);
+
+            if (recaudacionMin == Normal)
+                tipoSustidorConMenosRecaudacion = "Normal";
+            if (recaudacionMin == Super)
+                tipoSustidorConMenosRecaudacion = "Súper";
+            if (recaudacionMin == Premium)
+                tipoSustidorConMenosRecaudacion = "Premium";
+
+
+            return $"Sustidor con menos recaudación Nafta {tipoSustidorConMenosRecaudacion} : {recaudacionMin} ARS$ ";
+        }
+
+        string surtidorConMasClientes() 
+        {
+            string tipoSustidorConMasCliente = "Normal";
+
+            UpdateListaNaftaNormalSuperPremium();
+
+            int cantClienteNormal = lstVentasNaftaNormal.Count;
+            int cantClienteSuper = lstVentasNaftaSuper.Count;
+            int cantClientePremium = lstVentasNaftaPremium.Count;
+
+            int cantClienteMax = MaxCantidadCliente(cantClienteNormal,cantClienteSuper, cantClientePremium);
+
+            if (cantClienteMax == cantClienteNormal)
+                tipoSustidorConMasCliente = "Normal";
+            if (cantClienteMax == cantClienteSuper)
+                tipoSustidorConMasCliente = "Súper";
+            if (cantClienteMax == cantClientePremium)
+                tipoSustidorConMasCliente = "Premium";
+
+            return $"Sustidor con más cliente(s) {tipoSustidorConMasCliente} : {cantClienteMax} clientes ";
+
+           
+
+        }
+
+        
+
+    }
+}
