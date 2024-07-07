@@ -153,6 +153,39 @@ namespace Ejercicio2
 
         }
 
+        double porcentajeVenta(List<Venta> plstBulk)
+        {
+          return (plstBulk.Count*100)/lstVentas.Count;    
+        }
+
+        double porcentajeRecaudacion(List<Venta> plstBulk)
+        {
+           return (CalcularRecaudacion(plstBulk)*100)/CalcularRecaudacionTotalTodosTiposConfundidos();
+        }
+
+        string porcentajeVentaCadaTipoNafta()
+        {
+            UpdateListaNaftaNormalSuperPremium();
+
+            double porcentajeVentaNaftaNormal = porcentajeVenta(lstVentasNaftaNormal);
+            double porcentajeVentaNaftaSuper = porcentajeVenta(lstVentasNaftaSuper);
+            double porcentajeVentaNaftaPremium = porcentajeVenta(lstVentasNaftaPremium);
+            
+            return $"Porcentaje de venta nafta Normal : {porcentajeVentaNaftaNormal}%\nPorcentaje de venta nafta Super : {porcentajeVentaNaftaSuper}%\nPorcentaje de venta nafta Premium : {porcentajeVentaNaftaPremium}%\n";
+        }
+
+        string porcentajeRecaudacionCadaTipoNafta()
+        {
+            UpdateListaNaftaNormalSuperPremium();
+
+            double porcentajeRecaudacionNaftaNormal = porcentajeRecaudacion(lstVentasNaftaNormal);
+            double porcentajeRecaudacionNaftaSuper = porcentajeRecaudacion(lstVentasNaftaSuper);
+            double porcentajeRecaudacionNaftaPremium = porcentajeRecaudacion(lstVentasNaftaPremium);
+            
+            return $"Porcentaje de Recaudacion nafta Normal : {porcentajeRecaudacionNaftaNormal}%\nPorcentaje de Recaudacion nafta Super : {porcentajeRecaudacionNaftaSuper}%\nPorcentaje de Recaudacion nafta Premium : {porcentajeRecaudacionNaftaPremium}%\n";
+        }
+
+
         
 
     }
