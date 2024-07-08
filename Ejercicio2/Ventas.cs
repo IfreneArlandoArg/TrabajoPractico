@@ -17,6 +17,8 @@ namespace Ejercicio2
         List<Venta> lstVentasNaftaSuper = new List<Venta>();
         List<Venta> lstVentasNaftaPremium = new List<Venta>();
 
+        
+
         void UpdateListaNaftaNormalSuperPremium()
         {
             foreach (Venta v in lstVentas) 
@@ -217,12 +219,32 @@ namespace Ejercicio2
             double promedioVentaNaftaSuper = promedioVenta(lstVentasNaftaSuper);
             double promedioVentaNaftaPremium = promedioVenta(lstVentasNaftaPremium);
             
-            return $"Promedio de venta nafta Normal : {promedioVentaNaftaNormal}%\nPromedio de venta nafta Super : {promedioVentaNaftaSuper}.\nPromedio de venta nafta Premium : {promedioVentaNaftaPremium}.\n";           
+            return $"Promedio de venta nafta Normal : {promedioVentaNaftaNormal} litros.\nPromedio de venta nafta Super : {promedioVentaNaftaSuper} litros.\nPromedio de venta nafta Premium : {promedioVentaNaftaPremium} litros.\n";           
         }
 
 
         //Calcular promedio recaudacion por surtidor (C/U)...
-        
+        double promedioRecaudacion(List<Venta> plstBulk)
+        {
+          return CalcularRecaudacion(plstBulk)/plstBulk.Count;
+        }
+
+        string promedioRecaudacionCadaTipoNafta()
+        {
+            UpdateListaNaftaNormalSuperPremium();
+
+            double promedioRecaudacionNaftaNormal = promedioRecaudacion(lstVentasNaftaNormal);
+            double promedioRecaudacionNaftaSuper = promedioRecaudacion(lstVentasNaftaSuper);
+            double promedioRecaudacionNaftaPremium = promedioRecaudacion(lstVentasNaftaPremium);
+            
+            return $"Promedio de Recaudacion nafta Normal : {promedioRecaudacionNaftaNormal} ARS $.\nPromedio de Recaudacion nafta Super : {promedioRecaudacionNaftaSuper} ARS $.\nPromedio de Recaudacion nafta Premium : {promedioRecaudacionNaftaPremium} ARS $.\n";           
+        }
+
+       //Recargar el surtidor cuando éste haya quedado vacío.
+
+
+
+      //Mostrar el surtidor con mayor cantidad recargas.
 
     }
 }
