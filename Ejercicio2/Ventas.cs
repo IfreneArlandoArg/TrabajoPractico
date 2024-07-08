@@ -153,9 +153,27 @@ namespace Ejercicio2
 
         }
 
+        int CalcularVentaTotalEnLitro(List<Venta> plstBulk)
+        {
+           int total = 0;
+
+           foreach(Venta v in plstBulk)
+           {
+             total += v.CantidadEnLitro;
+           }
+
+           return total;
+        }
+
         double porcentajeVenta(List<Venta> plstBulk)
         {
-          return (plstBulk.Count*100)/lstVentas.Count;    
+          double _porcentajeVenta = 0;
+          double  _porcentajeVentaTipoEspecifico = CalcularVentaTotalEnLitro(plstBulk);
+          double  _porcentajeVentaTodosTipos = CalcularVentaTotalEnLitro(lstVentas);
+
+          _porcentajeVenta = (_porcentajeVentaTipoEspecifico*100)/_porcentajeVentaTodosTipos;
+
+          return _porcentajeVenta;    
         }
 
         double porcentajeRecaudacion(List<Venta> plstBulk)
@@ -185,7 +203,25 @@ namespace Ejercicio2
             return $"Porcentaje de Recaudacion nafta Normal : {porcentajeRecaudacionNaftaNormal}%\nPorcentaje de Recaudacion nafta Super : {porcentajeRecaudacionNaftaSuper}%\nPorcentaje de Recaudacion nafta Premium : {porcentajeRecaudacionNaftaPremium}%\n";
         }
 
+        //Calcular promedio ventas por surtidor (C/U)...
+        double promedioVenta(List<Venta> plstBulk)
+        {
+          return CalcularVentaTotalEnLitro(plstBulk)/plstBulk.Count;
+        }
 
+        string promedioVentaCadaTipoNafta()
+        {
+            UpdateListaNaftaNormalSuperPremium();
+
+            double promedioVentaNaftaNormal = promedioVenta(lstVentasNaftaNormal);
+            double promedioVentaNaftaSuper = promedioVenta(lstVentasNaftaSuper);
+            double promedioVentaNaftaPremium = promedioVenta(lstVentasNaftaPremium);
+            
+            return $"Promedio de venta nafta Normal : {promedioVentaNaftaNormal}%\nPromedio de venta nafta Super : {promedioVentaNaftaSuper}.\nPromedio de venta nafta Premium : {promedioVentaNaftaPremium}.\n";           
+        }
+
+
+        //Calcular promedio recaudacion por surtidor (C/U)...
         
 
     }
