@@ -245,6 +245,10 @@ namespace Ejercicio2
 
 
       //Mostrar el surtidor con mayor cantidad recargas.
+      string MostrarSurtidorMayorRecarga()
+      {
+         return $"Surtidor con mayor Recarga";
+      }
 
     }
 }
