@@ -46,14 +46,91 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agenda.cs" />
+    <Compile Include="CostoTratamientoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CostoTratamientoForm.Designer.cs">
+      <DependentUpon>CostoTratamientoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivacion.cs" />
+    <Compile Include="DerivacionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DerivacionForm.Designer.cs">
+      <DependentUpon>DerivacionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diagnostico.cs" />
+    <Compile Include="Especialidad.cs" />
+    <Compile Include="EspecialidadesGananciaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EspecialidadesGananciaForm.Designer.cs">
+      <DependentUpon>EspecialidadesGananciaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EspecialidadesPacientesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EspecialidadesPacientesForm.Designer.cs">
+      <DependentUpon>EspecialidadesPacientesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EspecialidadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EspecialidadForm.Designer.cs">
+      <DependentUpon>EspecialidadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estudio.cs" />
+    <Compile Include="EstudioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstudioForm.Designer.cs">
+      <DependentUpon>EstudioForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GestorHospital.cs" />
+    <Compile Include="HistorialClinicaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistorialClinicaForm.Designer.cs">
+      <DependentUpon>HistorialClinicaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistorialClinico.cs" />
+    <Compile Include="IGestorHospital.cs" />
+    <Compile Include="Medico.cs" />
+    <Compile Include="MedicoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedicoForm.Designer.cs">
+      <DependentUpon>MedicoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paciente.cs" />
+    <Compile Include="PacienteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PacienteForm.Designer.cs">
+      <DependentUpon>PacienteForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecetaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecetaForm.Designer.cs">
+      <DependentUpon>RecetaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResultadoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultadoForm.Designer.cs">
+      <DependentUpon>ResultadoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Turno.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +140,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

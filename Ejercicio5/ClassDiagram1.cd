@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ejercicio5.Form1" Collapsed="true">
+    <Position X="1" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQAAACAAAAACAACAAUACAAAAAIAACCEAABAAQAI=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio5.Program" Collapsed="true">
+    <Position X="2.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio5.Properties.Resources" Collapsed="true">
+    <Position X="1" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio5.Properties.Settings" Collapsed="true">
+    <Position X="2.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio5.Cancha" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEQAAAAAgAAAAAAAAAAAAAAAAAAIgAA=</HashCode>
+      <FileName>Cancha.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio5.CanchaTenis" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAgAA=</HashCode>
+      <FileName>CanchaTenis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio5.CanchaFutbol5" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>CanchaFutbol5.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio5.CanchaFutbol7" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAgAA=</HashCode>
+      <FileName>CanchaFutbol7.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio5.CanchaFutbol11" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAgAE=</HashCode>
+      <FileName>CanchaFutbol11.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio5.Juez" Collapsed="true">
+    <Position X="5.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAhAAAAAAAAAAACAAAgAAAAAA=</HashCode>
+      <FileName>Juez.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio5.Alquiler" Collapsed="true">
+    <Position X="5.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAACAAAAAAAAAAAAAAAAAAAAAgIAIAAA=</HashCode>
+      <FileName>Alquiler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio5.Polideportivo" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAAAACgQAgCAACAAAAAAAAAAAAAAAQAAAgAAAAAAAA=</HashCode>
+      <FileName>Polideportivo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

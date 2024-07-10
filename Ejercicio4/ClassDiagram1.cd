@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ejercicio4.Form1" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAQAAACAAAAABAACAAUACAAAAAIAACCUAABAAQAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio4.Program" Collapsed="true">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio4.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio4.Properties.Settings" Collapsed="true">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio4.Cerveza">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Cerveza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio4.Vaso">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Vaso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio4.Barril">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAGAAIAAAAAgAAAAAABIAAAAAAAAgAAAAACAAAAAAA=</HashCode>
+      <FileName>Barril.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio4.AfterOffice">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAgAAIAAAhKAIAAAAAAAAAAaAAAAAIAEAAQ=</HashCode>
+      <FileName>AfterOffice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Ejercicio4.TipoCerveza">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TipoCerveza.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Ejercicio4.TipoVaso">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAEAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TipoVaso.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

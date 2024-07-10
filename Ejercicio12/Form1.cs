@@ -16,5 +16,15 @@ namespace Ejercicio12
         {
             InitializeComponent();
         }
+
+        List<Cliente> lsClientes = new List<Cliente>();
+
+        List<Ejemplar> lstLibros;
+
+        Biblioteca biblioteca = new Biblioteca();
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

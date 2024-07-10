@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ejercicio8.Estacion" Collapsed="true">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAgAAACAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Estacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio8.Viaje" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQCAFBQAgAAAAA=</HashCode>
+      <FileName>Estacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio8.Form1" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEQACAAAAAAAACAAAACgAAAAAAAACAAAAAAAEA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio8.Pasajero" Collapsed="true">
+    <Position X="9.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAEAAAAwAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pasajero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio8.Program" Collapsed="true">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio8.Properties.Resources" Collapsed="true">
+    <Position X="1.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio8.Properties.Settings" Collapsed="true">
+    <Position X="1.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio8.EmpresaFerroviaria" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAABCAAAAAAAAAAoAABAAQgACAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>EmpresaFerroviaria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio8.Pasaje" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAgAAAAAgAAAAAkAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pasaje.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Ejercicio8.CategoriaVagon">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>CategoriaVagon.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

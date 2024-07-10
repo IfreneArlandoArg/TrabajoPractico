@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ejercicio6.Form1" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACBAAAAAAACAAgACgAAAAAAAACQAAAAAAEA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio6.Habitacion" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAIAAAAAAAAQAAAAAAAAAAAAAABgAQ=</HashCode>
+      <FileName>Habitacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio6.HabitacionSimple" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Habitacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio6.HabitacionDobleMatrimonial" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Habitacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio6.HabitacionTriple" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Habitacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio6.HabitacionCuadruple" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Habitacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio6.Hotel" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAQIAgAAAEBAAAAAAAIAAACACAACAAABAgAAAA=</HashCode>
+      <FileName>Hotel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio6.Pasajero" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAEAAAAgAAAAAEAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pasajero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio6.Program" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio6.Reserva" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgAAgCAAEABAAEAIIAAAAAAAAAAAAEAAAAAAQAkQA=</HashCode>
+      <FileName>Reserva.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio6.Properties.Resources" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio6.Properties.Settings" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
