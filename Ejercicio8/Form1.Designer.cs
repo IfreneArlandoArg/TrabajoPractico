@@ -81,12 +81,12 @@
             // 
             // btnSimular
             // 
-            this.btnSimular.Location = new System.Drawing.Point(1195, 588);
+            this.btnSimular.Location = new System.Drawing.Point(827, 216);
             this.btnSimular.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSimular.Name = "btnSimular";
             this.btnSimular.Size = new System.Drawing.Size(104, 36);
             this.btnSimular.TabIndex = 0;
-            this.btnSimular.Text = "Simular";
+            this.btnSimular.Text = "Vender";
             this.btnSimular.UseVisualStyleBackColor = true;
             this.btnSimular.Click += new System.EventHandler(this.btnSimular_Click);
             // 
@@ -114,10 +114,11 @@
             // 
             this.groupBox3.Controls.Add(this.groupBox6);
             this.groupBox3.Controls.Add(this.groupBox5);
+            this.groupBox3.Controls.Add(this.btnSimular);
             this.groupBox3.Controls.Add(this.groupBox4);
             this.groupBox3.Location = new System.Drawing.Point(25, 327);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1138, 297);
+            this.groupBox3.Size = new System.Drawing.Size(959, 297);
             this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Venta";
@@ -273,7 +274,6 @@
             this.ClientSize = new System.Drawing.Size(1572, 732);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.btnSimular);
             this.Controls.Add(this.groupBox1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";

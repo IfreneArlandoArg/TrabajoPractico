@@ -26,10 +26,22 @@ namespace Ejercicio8
             lsb.DataSource = pO;
         
         }
+
+        void LimpiarInputs() 
+        { 
+           txtNombre.Text = string.Empty;
+            txtApellido.Text = string.Empty;
+            txtDNI.Text = string.Empty;
+            dtpckFechaNacimiento.Value = DateTime.Now;
+        }
         private void btnSimular_Click(object sender, EventArgs e)
         {
             try
             {
+                if(txtApellido.Text == string.Empty || txtNombre.Text == string.Empty || txtDNI.Text == string.Empty)
+                {
+                    throw new Exception("¡Dato Faltante!\n¡Por favor ingrese, los datos necesarios!");
+                }
 
                 Viaje viaje = lstBViajes.SelectedItem as Viaje;
 
@@ -43,7 +55,10 @@ namespace Ejercicio8
                 string Nombre = txtNombre.Text;
                 string Apellido = txtApellido.Text;
                 DateTime FechaNacimiento = dtpckFechaNacimiento.Value;
-               // int NumeroButaca;
+               
+                int NumeroButaca = int.Parse(comboBox1.Text);
+
+                MessageBox.Show($"{NumeroButaca}");
 
                 Regex rgxDNI = new Regex(@"^[0-9]{8}$");
                 if (!rgxDNI.IsMatch(txtDNI.Text))
@@ -55,7 +70,8 @@ namespace Ejercicio8
 
                 // Venta de pasaje
                 Pasajero pasajero = new Pasajero(Nombre, Apellido, FechaNacimiento, DNI, NecesitaAutorizacionPadres);
-                empresa.VenderPasaje(viaje, pasajero, categoriaWagon, 20);
+                
+                empresa.VenderPasaje(viaje, pasajero, categoriaWagon, NumeroButaca);
 
                 listBox1.Items.Clear();
                 // Obtener recaudación total
@@ -72,6 +88,9 @@ namespace Ejercicio8
 
                 // Verificar disponibilidad de lugares
                 listBox1.Items.Add($"Hay Lugares Disponibles: {empresa.HayLugaresDisponibles(viaje, categoriaWagon)}");
+
+
+                LimpiarInputs();
             }
 
 
