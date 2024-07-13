@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ejercicio9.Constelacion" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAgAABAAAQAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Constelacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio9.CuerpoCeleste" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACEAAAAgAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>CuerpoCeleste.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio9.Estrella" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEEAAAAAAAAAAACgAAAAAAoAAAAAQ=</HashCode>
+      <FileName>Estrella.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio9.Form1" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEGBACCAABAAAACIAAACgChAgAjAACSIIAIACAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio9.Persona" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAEAAAAhAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio9.Planeta" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAFAAAQAIQgAAAAAgAAAAAAIAAAAAA=</HashCode>
+      <FileName>Planeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio9.Program" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio9.Satelite" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAEAAAAAAAAAAAAAgAAAAAAIAAAAAA=</HashCode>
+      <FileName>Satelite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio9.Properties.Resources" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ejercicio9.Properties.Settings" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Ejercicio9.ColorEstrella">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAACAEAAAAAAAAAAAAAAAAABCAAAAA=</HashCode>
+      <FileName>ColorEstrella.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Ejercicio9.TipoEstrella">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TipoEstrella.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

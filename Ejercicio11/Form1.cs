@@ -19,7 +19,7 @@ namespace Ejercicio11
 
         private void btnAgregarEspecialidad_Click(object sender, EventArgs e)
         {
-            //var formEspecialidad = new EspecialidadForm(gestorHospital);
+            var formEspecialidad = new EspecialidadForm(gestorHospital);
             //formEspecialidad.ShowDialog();
         }
 

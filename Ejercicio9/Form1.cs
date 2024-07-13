@@ -164,5 +164,27 @@ namespace Ejercicio9
                 MessageBox.Show(Ex.Message);
             }
         }
+
+        private void txtBuscarPorNombre_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if(!(txtBuscarPorNombre.Text == string.Empty)) 
+                {
+                    List<CuerpoCeleste> CuerpoCelesctePorNombre = lstCuerpoCelestes.Where(c => c.Nombre == txtBuscarPorNombre.Text).ToList();
+                    mostrarLsBox(listBox1,CuerpoCelesctePorNombre);
+                }
+                else 
+                {
+                    mostrarLsBox(listBox1, lstCuerpoCelestes);
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

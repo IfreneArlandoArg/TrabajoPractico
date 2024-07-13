@@ -58,7 +58,7 @@ namespace Ejercicio8
                
                 int NumeroButaca = int.Parse(comboBox1.Text);
 
-                MessageBox.Show($"{NumeroButaca}");
+               
 
                 Regex rgxDNI = new Regex(@"^[0-9]{8}$");
                 if (!rgxDNI.IsMatch(txtDNI.Text))
