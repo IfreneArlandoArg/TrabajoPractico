@@ -31,6 +31,11 @@ namespace Ejercicio8
             viajes.Add(viaje);
         }
 
+        public List<Viaje> ObtenerLstViajes() 
+        { 
+            return viajes;
+        }
+
         // Método para vender un pasaje
         public void VenderPasaje(Viaje viaje, Pasajero pasajero, CategoriaVagon categoria, int numeroButaca)
         {
@@ -83,7 +88,7 @@ namespace Ejercicio8
         {
             // Suponiendo que se tiene un sistema para manejar los asientos disponibles en cada viaje y categoría de vagon
             // Aquí se simularía la verificación de disponibilidad de asientos en la formación para el viaje y categoría especificados
-            return true; // Implementar lógica real según la estructura de datos de la formación
+            return true; 
         }
     }
 }
